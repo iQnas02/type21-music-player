@@ -1,8 +1,12 @@
+body{
+  background-color: black !important;
+}
 .tete{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+
 }
 .container{
   flex-direction: column;
@@ -14,4 +18,12 @@
 #myAudio{
   display: flex;
   align-self: center;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }

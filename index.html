@@ -13,17 +13,22 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
+<canvas id="visualizationCanvas"></canvas>
 <div class="tete">
     <div class="container d-flex">
         <p>Click the buttons to play or pause the audio.</p>
-        <p>2 Donatai - Esu Žmogus</p>
+        <p>Current Song: <span id="song-title">2 Donatai - Esu Žmogus</span></p>
         <button id="play-button">Play Audio</button>
         <button id="pause-button">Pause Audio</button>
         <audio controls id="myAudio">
             <source src="esuŽmogus.mp3" type="audio/mpeg">
+            <source src="2KvėpavimasPanamera.mp33" type="audio/mpeg">
+            <source src="bojJovi.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
+        <button id="next-button">Next Song</button>
     </div>
+
 </div>
 </body>
 </html>
