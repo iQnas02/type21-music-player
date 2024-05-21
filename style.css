@@ -1,0 +1,21 @@
+.tete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: greenyellow;
+  position: relative;
+  top: 300px;
+}
+
+#myAudio {
+  display: flex;
+  align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */
