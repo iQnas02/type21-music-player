@@ -7,12 +7,13 @@ const canvas = document.getElementById("visualizationCanvas");
 const canvasCtx = canvas.getContext("2d");
 
 const songs = [
-    { src: "esuŽmogus.mp3", title: "2 Donatai - Esu Žmogus" },
-    { src: "2KvėpavimasPanamera.mp3", title: "2Kvėpavimas - Panamera" },
-    { src: "bojJovi.mp3", title: "Bon Jovi - Livin' on a Prayer" },
-    {src: "Scatman- Scatman John.mp3", title: "Scatman John." },
-    {src: "SEL - Užmerkiu Akis.mp3", title: "Sel- užmerkiu akis"},
-    {src: "Sisters On Wire - Taip jau gavosi.mp3", title: "Sisters On Wire - Taip jau"},
+
+    {src: "ethereal-vistas-191254.mp3", title: "Vistas"},
+    {src: "flow-211881.mp3", title: "Flow"},
+    {src: "for-her-chill-upbeat-summel-travel-vlog-and-ig-music-royalty-free-use-202298.mp3", title: "royalty chill"},
+    {src: "groovy-ambient-funk-201745.mp3", title: "funk"},
+    {src: "movement-200697.mp3", title: "movement"},
+
 ];
 let currentSongIndex = 0;
 
